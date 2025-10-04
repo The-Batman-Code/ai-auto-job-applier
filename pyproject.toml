@@ -1,5 +1,5 @@
 [project]
-name = "ai-auto-job-applier"
+name = "venv"
 version = "0.1.0"
 description = "AI-powered automated job application system with FastAPI backend"
 requires-python = ">=3.13"
