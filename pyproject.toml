@@ -1,7 +1,7 @@
 [project]
-name = "venv"
+name = "base-repo-structure"
 version = "0.1.0"
-description = "AI-powered automated job application system with FastAPI backend"
+description = "Production-grade FastAPI boilerplate with Google ADK multi-agent architecture"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi>=0.118.0",
