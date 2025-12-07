@@ -48,10 +48,6 @@ base-repo-structure/
 │   │   ├── agents/                         # Google ADK Agents (multi-agent architecture)
 │   │   │   ├── __init__.py
 │   │   │   ├── base_agent.py               # Base class for all agents
-│   │   │   ├── shared_resources/           # Shared code across all agents
-│   │   │   │   ├── __init__.py
-│   │   │   │   ├── common_tools.py
-│   │   │   │   └── helpers.py
 │   │   │   │
 │   │   │   ├── agent1/                     # Top-level Agent 1
 │   │   │   │   ├── __init__.py
@@ -557,11 +553,6 @@ This project combines **Google ADK (Agent Development Kit)** with **FastAPI laye
    - Specific tools for each agent
    - Can call external APIs/services
    - Handle specialized operations
-
-5. **Shared Resources** (`shared_resources/`)
-   - Common tools used by all agents
-   - Shared helper functions
-   - Common utilities
 
 ### Layered Service Architecture
 
